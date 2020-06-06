@@ -1,2 +1,95 @@
-languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+baseURL = "https://glamourme.gr/"
+#CanonifyURLs=true
+
+languageCode = "el"
+theme = "ramium"
+
+title = "GlamourMe"
+disqusShortname = "disqus-code"
+googleAnalytics = "analytics-code"
+pluralizeListTitles = false
+enableemoji = false
+
+[params]
+    description = "Refine your look as you want at Glamour Me"
+    # googleSearch = "google-search-code"
+    showDate = true # make false if dont want to show date for evergeen articles
+    math = false # best to enable this in the front matter of a page
+    githubLink = "rafed/ramium/"
+
+    tagsInHome = 0     # set zero to not show in home page
+    sectionsInHome = 0  # set zero to not show in home page
+    paginatePostsPerPage = 5
+    paginateTagsPerPage = 6
+
+[taxonomies]
+    tag = "tags"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+    [[menu.main]]
+        name = "Αρχική"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "υπηρεσιες"
+        name = "Υπηρεσίες"
+        weight = 2
+            [[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Κομμώσεις ανδρικές"
+                url = "/κομμώσεις-ανδρικές/"
+                weight = 1
+            [[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Κομμώσεις γυναικείες"
+                url = "/κομμώσεις-γυναικείες/"
+                weight = 2
+            [[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Manicure Pedicure"
+                url = "/manicure-pedicure/"
+                weight = 3
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Βαφή μαλλιών"
+                url = "/βαφή-μαλλιών/"
+                weight = 4
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Solarium"
+                url = "/solarium/"
+                weight = 5
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Tattoo Φρυδιών"
+                url = "/tattoo-φρυδιών/"
+                weight = 6
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Νυφικό χτένισμα"
+                url = "/νυφικό-χτένισμα/"
+                weight = 7
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Μασάζ"
+                url = "/μασάζ/"
+                weight = 8
+			[[menu.main]]
+                parent = "υπηρεσιες"
+                name = "Make Up" 
+                url = "/make-up/"
+                weight = 9
+    
+    [[menu.main]]
+        name = "Βρείτε μας"
+        url = "/βρείτε-μας/"
+        weight = 3
+	[[menu.main]]
+        name = "Τιμοκατάλογος"
+        url = "/τιμοκατάλογος/"
+        weight = 4
+	
