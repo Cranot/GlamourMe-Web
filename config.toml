@@ -35,54 +35,59 @@ enableemoji = false
         weight = 1
 
     [[menu.main]]
-        identifier = "υπηρεσιες"
+        identifier = "υπηρεσίες"
         name = "Υπηρεσίες"
         weight = 2
             [[menu.main]]
-                parent = "υπηρεσιες"
+                parent = "υπηρεσίες"
                 name = "Κομμώσεις ανδρικές"
                 url = "/κομμώσεις-ανδρικές/"
                 weight = 1
             [[menu.main]]
-                parent = "υπηρεσιες"
+                parent = "υπηρεσίες"
                 name = "Κομμώσεις γυναικείες"
                 url = "/κομμώσεις-γυναικείες/"
                 weight = 2
             [[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Manicure Pedicure"
-                url = "/manicure-pedicure/"
+                parent = "υπηρεσίες"
+                name = "Manicure "
+                url = "/manicure/"
                 weight = 3
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Βαφή μαλλιών"
-                url = "/βαφή-μαλλιών/"
+                parent = "υπηρεσίες"
+                name = "Pedicure"
+                url = "/pedicure/"
                 weight = 4
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Solarium"
-                url = "/solarium/"
+                parent = "υπηρεσίες"
+                name = "Βαφή μαλλιών"
+                url = "/βαφή-μαλλιών/"
                 weight = 5
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Tattoo Φρυδιών"
-                url = "/tattoo-φρυδιών/"
+                parent = "υπηρεσίες"
+                name = "Solarium"
+                url = "/solarium/"
                 weight = 6
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Νυφικό χτένισμα"
-                url = "/νυφικό-χτένισμα/"
+                parent = "υπηρεσίες"
+                name = "Tattoo Φρυδιών"
+                url = "/tattoo-φρυδιών/"
                 weight = 7
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Μασάζ"
-                url = "/μασάζ/"
+                parent = "υπηρεσίες"
+                name = "Νυφικό χτένισμα"
+                url = "/νυφικό-χτένισμα/"
                 weight = 8
 			[[menu.main]]
-                parent = "υπηρεσιες"
-                name = "Make Up" 
-                url = "/make-up/"
+                parent = "υπηρεσίες"
+                name = "Μασάζ"
+                url = "/μασάζ/"
                 weight = 9
+			[[menu.main]]
+                parent = "υπηρεσίες"
+                name = "Make Up-Μακιγιάς" 
+                url = "/makeup-μακιγιάζ/"
+                weight = 10
     
     [[menu.main]]
         name = "Βρείτε μας"
