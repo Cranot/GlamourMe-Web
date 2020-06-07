@@ -85,9 +85,14 @@ enableemoji = false
                 weight = 9
 			[[menu.main]]
                 parent = "υπηρεσίες"
-                name = "Make Up-Μακιγιάς" 
+                name = "Make Up - Μακιγιάς" 
                 url = "/makeup-μακιγιάζ/"
                 weight = 10
+			[[menu.main]]
+                parent = "υπηρεσίες"
+                name = "Extensions Βλεφαρίδων" 
+                url = "/extensions-βλεφαρίδων/"
+                weight = 11
     
     [[menu.main]]
         name = "Βρείτε μας"
