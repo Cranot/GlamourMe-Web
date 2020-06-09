@@ -1,21 +1,41 @@
 {{ define "main" }}
-
-<section class="hero has-text-centered">
-    <br><br><br>
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title is-1">
-                {{ .Title }}
-            </h1>
-            <h1 class="subtitle is-2">
-                {{ .Params.Subtitle }}
-            </h1>
-            <h1 class="subtitle is-5">
-                {{ with .Content }}
-                {{ . }}
-                {{ end }}
-            </h1>
-        </div>
-    </div>
+<section class="hero is-medium is-primary is-bold has-text-centered">
+	<div class="hero-body">
+		<div class="container">
+			<img src="/img/decor-start.png" alt="head-decor" width="182" height="49">
+			<h1 class="title">{{ .Title }}</h1>
+			<p class="subtitle">{{ .Params.Subtitle }}</p>
+			<a class="button is-medium is-danger" href="tel:2291159320"><b>Κλείστε Ραντεβού</b></a>
+			<img src="/img/decor-end.png" alt="head-decor" width="182" height="49">
+		</div>
+	</div>
+</section>
+<section class="section has-text-centered">
+	<div class="container">
+		<h2 class="title">Οι υπηρεσίες μας</h2>
+		<div class="columns is-mobile">
+			<div class="column is-half">Ανρικές Κομμώσεις</div>
+			<div class="column is-half">Γυναικείες Κομμώσεις</div>
+		</div>
+		<div class="columns is-mobile">
+			<div class="column is-half">Manicure</div>
+			<div class="column is-half">Pedicure</div>
+		</div>
+		<div class="columns is-mobile">
+			<div class="column is-half">Βαφή μαλλιών</div>
+			<div class="column is-half">Solarium</div>
+		</div>
+		<div class="columns is-mobile">
+			<div class="column is-half">Tattoo Φρυδιών</div>
+			<div class="column is-half">Νυφικό χτένισμα</div>
+		</div>
+		<div class="columns is-mobile">
+			<div class="column is-half">Μασάζ</div>
+			<div class="column is-half">Extensions Βλεφαρίδων</div>
+		</div>
+		<div class="columns is-mobile">
+			<div class="column">Μακιγιάζ</div>
+		</div>
+	</div>
 </section>
 {{ end }}
