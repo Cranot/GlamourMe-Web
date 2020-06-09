@@ -5788,9 +5788,9 @@ a.list-item {
 }
 .navbar {
  background-color:#fff;
- min-height:4.5rem;
  position:relative;
- z-index:30
+ z-index:30;
+ border-bottom: 1px solid #eeebeb;
 }
 .navbar.is-white {
  background-color:#fff;
@@ -6636,7 +6636,6 @@ a.navbar-item:hover {
  .navbar {
   min-height:4.4rem;
   background: #FFfafa;
-  border-bottom: 1px solid #eeebeb;
  }
  .navbar.is-spaced {
   padding:1rem 2rem
