@@ -1526,7 +1526,7 @@ fieldset[disabled] .button.is-text {
 }
 .button.is-white.is-active,
 .button.is-white:active {
- background-color:#f2f2f2;
+ background-color:#ffefef;
  border-color:transparent;
  color:#0a0a0a
 }
@@ -1646,7 +1646,7 @@ fieldset[disabled] .button.is-black {
 }
 .button.is-black.is-inverted.is-hovered,
 .button.is-black.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-black.is-inverted[disabled],
 fieldset[disabled] .button.is-black.is-inverted {
@@ -1854,7 +1854,7 @@ fieldset[disabled] .button.is-dark {
 }
 .button.is-dark.is-inverted.is-hovered,
 .button.is-dark.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-dark.is-inverted[disabled],
 fieldset[disabled] .button.is-dark.is-inverted {
@@ -1958,7 +1958,7 @@ fieldset[disabled] .button.is-primary {
 }
 .button.is-primary.is-inverted.is-hovered,
 .button.is-primary.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-primary.is-inverted[disabled],
 fieldset[disabled] .button.is-primary.is-inverted {
@@ -2078,7 +2078,7 @@ fieldset[disabled] .button.is-link {
 }
 .button.is-link.is-inverted.is-hovered,
 .button.is-link.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-link.is-inverted[disabled],
 fieldset[disabled] .button.is-link.is-inverted {
@@ -2198,7 +2198,7 @@ fieldset[disabled] .button.is-info {
 }
 .button.is-info.is-inverted.is-hovered,
 .button.is-info.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-info.is-inverted[disabled],
 fieldset[disabled] .button.is-info.is-inverted {
@@ -2318,7 +2318,7 @@ fieldset[disabled] .button.is-success {
 }
 .button.is-success.is-inverted.is-hovered,
 .button.is-success.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-success.is-inverted[disabled],
 fieldset[disabled] .button.is-success.is-inverted {
@@ -2558,7 +2558,7 @@ fieldset[disabled] .button.is-danger {
 }
 .button.is-danger.is-inverted.is-hovered,
 .button.is-danger.is-inverted:hover {
- background-color:#f2f2f2
+ background-color:#ffefef
 }
 .button.is-danger.is-inverted[disabled],
 fieldset[disabled] .button.is-danger.is-inverted {
@@ -4249,7 +4249,7 @@ fieldset[disabled] .select select:hover {
 }
 .select.is-white select.is-hovered,
 .select.is-white select:hover {
- border-color:#f2f2f2
+ border-color:#ffefef
 }
 .select.is-white select.is-active,
 .select.is-white select.is-focused,
@@ -4461,7 +4461,7 @@ fieldset[disabled] .select select:hover {
 }
 .file.is-white.is-active .file-cta,
 .file.is-white:active .file-cta {
- background-color:#f2f2f2;
+ background-color:#ffefef;
  border-color:transparent;
  color:#0a0a0a
 }
@@ -5806,7 +5806,7 @@ a.list-item {
 .navbar.is-white .navbar-brand>a.navbar-item.is-active,
 .navbar.is-white .navbar-brand>a.navbar-item:focus,
 .navbar.is-white .navbar-brand>a.navbar-item:hover {
- background-color:#f2f2f2;
+ background-color:#ffefef;
  color:#0a0a0a
 }
 .navbar.is-white .navbar-brand .navbar-link::after {
@@ -5834,7 +5834,7 @@ a.list-item {
  .navbar.is-white .navbar-start>a.navbar-item.is-active,
  .navbar.is-white .navbar-start>a.navbar-item:focus,
  .navbar.is-white .navbar-start>a.navbar-item:hover {
-  background-color:#f2f2f2;
+  background-color:#ffefef;
   color:#0a0a0a
  }
  .navbar.is-white .navbar-end .navbar-link::after,
@@ -5844,7 +5844,7 @@ a.list-item {
  .navbar.is-white .navbar-item.has-dropdown.is-active .navbar-link,
  .navbar.is-white .navbar-item.has-dropdown:focus .navbar-link,
  .navbar.is-white .navbar-item.has-dropdown:hover .navbar-link {
-  background-color:#f2f2f2;
+  background-color:#ffefef;
   color:#0a0a0a
  }
  .navbar.is-white .navbar-dropdown a.navbar-item.is-active {
@@ -6432,7 +6432,8 @@ html.has-navbar-fixed-bottom {
  align-items:stretch;
  display:flex;
  flex-shrink:0;
- min-height:3.25rem
+ min-height:3.25rem;
+ background: #fffafa;
 }
 .navbar-brand a.navbar-item:focus,
 .navbar-brand a.navbar-item:hover {
@@ -6448,7 +6449,6 @@ html.has-navbar-fixed-bottom {
  color:#4a4a4a;
  cursor:pointer;
  display:block;
- height:3.25rem;
  position:relative;
  width:3.25rem;
  margin-left:auto
@@ -6514,8 +6514,8 @@ a.navbar-item.is-active,
 a.navbar-item:focus,
 a.navbar-item:focus-within,
 a.navbar-item:hover {
- background-color:#fafafa;
- color:#3273dc
+ background-color:#ffebeb;
+ color:#a3c;
 }
 .navbar-item {
  flex-grow:0;
@@ -6554,7 +6554,7 @@ a.navbar-item:hover {
  padding-right:2.5em
 }
 .navbar-link:not(.is-arrowless)::after {
- border-color:#3273dc;
+ border-color:#a3c;
  margin-top:-.375em;
  right:1.125em
 }
@@ -6634,7 +6634,9 @@ a.navbar-item:hover {
   display:flex
  }
  .navbar {
-  min-height:4.4rem
+  min-height:4.4rem;
+  background: #FFfafa;
+  border-bottom: 1px solid #eeebeb;
  }
  .navbar.is-spaced {
   padding:1rem 2rem
@@ -6745,8 +6747,6 @@ a.navbar-item:hover {
  }
  .navbar-dropdown a.navbar-item:focus,
  .navbar-dropdown a.navbar-item:hover {
-  background-color:#f5f5f5;
-  color:#0a0a0a
  }
  .navbar-dropdown a.navbar-item.is-active {
   background-color:#f5f5f5;
@@ -6823,7 +6823,7 @@ a.navbar-item:hover {
  .navbar-item.has-dropdown.is-active .navbar-link,
  .navbar-item.has-dropdown:focus .navbar-link,
  .navbar-item.has-dropdown:hover .navbar-link {
-  background-color:#fafafa
+  background-color:#ffebeb;
  }
 }
 .hero.is-fullheight-with-navbar {
@@ -9108,7 +9108,7 @@ label.panel-block:hover {
 .hero.is-white .navbar-link:hover,
 .hero.is-white a.navbar-item.is-active,
 .hero.is-white a.navbar-item:hover {
- background-color:#f2f2f2;
+ background-color:#ffefef;
  color:#0a0a0a
 }
 .hero.is-white .tabs a {
