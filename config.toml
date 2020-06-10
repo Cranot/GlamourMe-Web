@@ -18,9 +18,8 @@ enableemoji = false
 [params]
     description = "Refine your look as you want at Glamour Me"
     # googleSearch = "google-search-code"
-    showDate = true # make false if dont want to show date for evergeen articles
+    showDate = false # make false if dont want to show date for evergeen articles
     math = false # best to enable this in the front matter of a page
-    githubLink = "rafed/ramium/"
 
     tagsInHome = 0     # set zero to not show in home page
     sectionsInHome = 0  # set zero to not show in home page
