@@ -10,6 +10,11 @@ googleAnalytics = "analytics-code"
 pluralizeListTitles = false
 enableemoji = false
 
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = "1"
+
 [params]
     description = "Refine your look as you want at Glamour Me"
     # googleSearch = "google-search-code"
