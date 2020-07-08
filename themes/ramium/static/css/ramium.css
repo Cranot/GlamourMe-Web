@@ -215,3 +215,5 @@ kbd {
     padding-right: 5px;
     border-radius: 4px;
 }
+
+.column.is-half{width:auto}
