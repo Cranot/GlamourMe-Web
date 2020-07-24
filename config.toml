@@ -50,8 +50,8 @@ enableemoji = false
                 weight = 1
             [[menu.main]]
                 parent = "υπηρεσίες"
-                name = "Κομμώσεις γυναικείες"
-                url = "/κομμώσεις-γυναικείες/"
+                name = "Γυναικείες Κομμώσεις"
+                url = "/γυναικείες-κομμώσεις/"
                 weight = 2
             [[menu.main]]
                 parent = "υπηρεσίες"
