@@ -10,6 +10,18 @@ summary: Εξτένσιον βλεφαρίδων με άψογο φυσικό α
 
 ---
 
+Αποκτήστε άμεσα στο GlamourMe τις τέλειες βλεφαρίδες που πάντα θέλατε, με μακριές και πιο πυκνές βλεφαρίδες θα έχετε άμεσα ένα ανανεωμένο Look κάθε πρωί, χαρίζοντας σας ένα υπέροχο και έντονο βλέμμα.
+
 {{< rawhtml >}}
-	  
+<div class="card-content">
+	<div class="content"><img src="/img/υπηρεσίες/extensions-βλεφαρίδων.jpg" alt="head-decor" width="400" height="400"></div>
+</div>
+
+<section class="section">
+	<div class="container">
+		<h2>Extension Βλεφαρίδων</h2>
+		<p>Καλέστε μας για απορίες ή για να κλείσετε ραντεβού</p>
+		<a class="button is-medium is-danger" href="tel:2291159320"><b>Κλείστε ραντεβού</b></a>
+	</div>
+</section>
 {{< /rawhtml >}}
